@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body
+{
+    font-family: Roboto , "Times New Roma", sans-serif;
+    margin: 0;
+}
+ul
+{
+    list-style-type: none;
+
+}
+a
+{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #1F2937;
+}
+
+.links
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 18px;
+ 
+}
+
+.logo
+{
+    font-size: 24px;
+    display: flex;
+    align-content: center;
+    margin-top: 16px;
+    color: #F9FAF8;
+}
+
+
+.header-content
+{
+    display: flex;
+    padding: 120px;
+    gap: 10px;
+    background: #1F2937 ;
+}
+.left-content
+{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    padding-left: 250px;
+}
+button
+{
+    background: #3882F6;
+    color: #E5E7EB;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: 300;
+}
+button:hover
+{
+    background: #002a6e;
+}
+.Main-text
+{
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.sub-text
+{
+    display: flex;
+     font-size: 18px;
+    color: #E5E7EB;
+}
+.left-content button
+{
+    width: 100px;
+    border: none;
+    margin-top: 12px;
+}
+.right-content
+{
+    display: flex;
+    padding-left: 40px;
+}
+.right-content img
+{
+    width: 500px;
+    height: 250px;
+}
+.info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.emp_container
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 55px;
+}   
+
+.gears
+{
+    max-width: 150px;
+    
+}
+
+.emp_container img
+{
+    border: 2px solid  #002a6e;
+    width: 125px;
+    height: 125px;
+}
+
+.testimony
+{
+    display: flex;
+    padding: 100px;
+    background: #E5E7E8;
+    flex-direction: column;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+
+.test-quote
+{   
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.test-attribution
+{
+    display: flex;
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 60px;
+}
+.sign-up
+{ 
+    display: flex;
+    margin: 100px 400px 100px 400px;
+    background: #3882F6;
+    padding: 50px;
+    border-radius: 6px;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-heading
+{
+    color: white;
+    font-size:  27px;
+}
+.sign-sub
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sign-up button
+{
+    width: 100px;
+    color: white;
+    border: 2px solid white;
+}
+.footer
+{
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 16px;
+}
